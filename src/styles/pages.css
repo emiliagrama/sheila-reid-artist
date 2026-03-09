@@ -1,0 +1,348 @@
+.pageSection {
+  padding: 1px 0;
+}
+
+.pageIntro {
+  max-width: 760px;
+}
+
+.pageEyebrow {
+  margin: 0 0 10px;
+  font-size: 0.92rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #9a5c22;
+}
+
+.pageIntro h1 {
+  margin: 0 0 18px;
+  font-size: clamp(1.9rem, 2.6vw, 2.6rem);
+  line-height: 0.95;
+  font-weight: 500;
+  color: #8e3f3f;
+}
+
+.pageLead {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4e433c;
+}
+
+.artworksPage {
+  display: grid;
+  gap: 52px;
+}
+
+/* remove the gold/fat override if you want same visual language */
+.artistHero__content h1 {
+  font-weight: 500;
+  color: #8e3f3f;
+}
+
+.artistHero {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: 34px;
+  align-items: start;
+  padding-top: 2px;
+}
+
+.artistHero__media {
+  width: 100%;
+  max-width: 220px;
+}
+
+.artistHero__media img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(56, 39, 28, 0.12);
+}
+
+.artistHero__content {
+  max-width: 660px;
+  min-width: 0;
+  padding-top: 2px;
+}
+
+.artistHero__lead {
+  margin: 0 0 20px;
+  font-size: 1.55rem;
+  line-height: 1.6;
+  color: #3f3732;
+}
+
+.artistHero__text {
+  margin: 0;
+  font-size: 1.18rem;
+  line-height: 1.8;
+  color: #5a4d45;
+}
+
+.artworksIntroBlock {
+  padding-top: 100px;
+}
+
+.artworksIntroBlock .pageIntro {
+  max-width: 680px;
+}
+
+.artworksIntroBlock h2 {
+  margin: 0 0 18px;
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  line-height: 1;
+  font-weight: 500;
+  color: #8e3f3f;
+}
+
+.seriesList {
+  display: grid;
+  gap: 58px;
+}
+
+.seriesBlock {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 42px;
+  align-items: start;
+  padding-top: 38px;
+  border-top: 1px solid rgba(91, 58, 41, 0.1);
+}
+
+.seriesBlock--reverse .seriesBlock__content {
+  order: 2;
+}
+
+.seriesBlock--reverse .seriesBlock__gallery {
+  order: 1;
+}
+
+.seriesBlock__content {
+  min-width: 0;
+}
+
+.seriesBlock__years {
+  margin: 0 0 6px;
+  
+  font-size: 0.92rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9a5c22;
+}
+
+.seriesBlock__content h3 {
+  margin: 0 0 16px;
+  font-size: clamp(1.8rem, 2.6vw, 2.6rem);
+  line-height: 1.02;
+  font-weight: 500;
+  color: #1f1b17;
+}
+
+.seriesBlock__content p:last-child {
+  margin: 0;
+  font-size: 1.12rem;
+  line-height: 1.9;
+  color: #5a4d45;
+  max-width: 50ch;
+}
+
+.seriesBlock__gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+  width: 100%;
+  min-width: 0;
+}
+
+.seriesBlock__imageWrap {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #ece6dd;
+  box-shadow: 0 10px 24px rgba(56, 39, 28, 0.10);
+}
+
+.seriesBlock__image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .artistHero {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .artistHero__media {
+    max-width: 440px;
+  }
+
+  .seriesBlock {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .seriesBlock--reverse .seriesBlock__content,
+  .seriesBlock--reverse .seriesBlock__gallery {
+    order: initial;
+  }
+
+  .seriesBlock__gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .seriesBlock__content p:last-child {
+    max-width: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .seriesBlock__gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .seriesBlock__image {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+/* =========================
+   BOOKS PAGE
+========================= */
+
+.booksPage {
+  display: grid;
+  gap: 56px;
+}
+
+.booksIntro {
+  max-width: 760px;
+}
+
+.booksList {
+  display: grid;
+  gap: 56px;
+}
+
+.bookFeature {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.bookFeature__media {
+  width: 340px;
+}
+
+.bookFeature--reverse .bookFeature__media {
+  order: 2;
+}
+
+.bookFeature--reverse .bookFeature__content {
+  order: 1;
+}
+
+.bookFeature__image {
+  width: 100%;
+  height: 440px;
+}
+
+.bookFeature__content {
+  max-width: 50ch;
+  min-width: 0;
+}
+
+.bookFeature__content h2 {
+  margin: 0 0 16px;
+  font-size: clamp(1.8rem, 2.6vw, 2.6rem);
+  line-height: 1.02;
+  font-weight: 500;
+  color: #1f1b17;
+  max-width: 12ch;
+}
+
+.bookFeature__content p {
+  margin: 0;
+  font-size: 1.12rem;
+  line-height: 1.9;
+  color: #5a4d45;
+}
+
+.bookFeature__actions {
+  margin-top: 24px;
+}
+
+.bookLink {
+  display: inline-block;
+  padding-bottom: 2px;
+  font-size: 1rem;
+  color: #9a5c22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  transition: opacity 0.2s ease;
+}
+
+.bookLink:hover {
+  opacity: 0.72;
+}
+
+.bookQuote {
+  margin: 24px 0 0;
+  padding-left: 20px;
+  border-left: 1px solid rgba(91, 58, 41, 0.18);
+}
+
+.bookQuote p {
+  font-size: 1.08rem;
+  line-height: 1.9;
+  color: #4f443d;
+}
+
+@media (max-width: 900px) {
+  .bookFeature {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .bookFeature--reverse .bookFeature__media,
+  .bookFeature--reverse .bookFeature__content {
+    order: initial;
+  }
+
+  .bookFeature__media {
+    width: min(360px, 100%);
+  }
+
+  .bookFeature__content {
+    max-width: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .booksPage {
+    gap: 44px;
+  }
+
+  .booksList {
+    gap: 44px;
+  }
+
+  .bookFeature {
+    padding-top: 28px;
+  }
+
+  .bookFeature__content h2 {
+    font-size: clamp(1.8rem, 8vw, 2.4rem);
+  }
+
+  .bookFeature__content p,
+  .bookQuote p {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+}
