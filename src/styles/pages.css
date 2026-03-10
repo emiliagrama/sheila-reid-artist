@@ -297,7 +297,7 @@
 .artLightbox__close:hover,
 .artLightbox__nav:hover {
   background: rgba(255, 255, 255, 0.16);
-  transform: translateY(-1px);
+  
 }
 
 .artLightbox__close {
