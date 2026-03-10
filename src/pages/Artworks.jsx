@@ -36,7 +36,7 @@ Diane Waldman, Deputy Director, Solomon Guggenheim Museum, New York City 1987
 Alexandra Tuttle
 “Reid's work hints at the underlying unity in the universe.Her symbols resemble sacred languages...Yet in a curious alchemy that only art can achieve,Reid manages to transform the banal signs of our civilization's mediocrity,into a powerful secret universe.”`,
     images: [
-      { src: "/images/Hieroglyphics-at-Art-Gallery-of-Victoria,-Canada.jpg", alt: "Hieroglyphics Victoria Gallery" },
+      { src: "/images/Hieroglyphics-at-Art-Gallery-of-Victoria-Canada.jpg", alt: "Hieroglyphics Victoria Gallery" },
       { src: "/images/Hieroglyphics-Guggenheim040.jpg", alt: "Hieroglyphics Guggenheim" }
     ]
   },
@@ -66,7 +66,7 @@ Lisa`,
     description: `Libery was a structure made at the request of a group of artists doing a show of monumental works that traveled around France. It was called Liberty partly because of the bright colors and partly because it was celebrating freedom from old ideas and customs.`,
     images: [
       { src: "/images/liberty.jpg", alt: "Liberty sculpture" },
-      { src: "/images/liberty-(outdoors).jpg", alt: "Liberty outdoors" }
+      { src: "/images/liberty-outdoors.jpg", alt: "Liberty outdoors" }
     ]
   },
 
@@ -91,8 +91,8 @@ France Delville, Art Critic, (L'Atelier du Futur Revue des Universities du XXI S
 of her Feminine Reflections... that sends shock waves through you, not because of the individual elements
 but because of the whole.”`,
     images: [
-      { src: "/images/Sheila-Reid's-'Feminine-Reflections'.jpg", alt: "Feminine Reflections installation" },
-      { src: "/images/Feminine-Reflect-close-up'.jpg", alt: "Feminine Reflections close up" }
+      { src: "/images/Sheila-Reid-Feminine-Reflections.jpg", alt: "Feminine Reflections installation" },
+      { src: "/images/Feminine-Reflect-close-up.jpg", alt: "Feminine Reflections close up" }
     ]
   },
 
