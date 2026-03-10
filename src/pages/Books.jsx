@@ -16,7 +16,7 @@ export default function Books() {
         <article className="bookFeature">
           <div className="bookFeature__media">
             <img
-              src="/images/is heaven silent (2).png"
+              src="/images/is-heaven-silent.png"
               alt="IS HEAVEN SILENT ?"
               className="bookFeature__image"
             />
@@ -41,7 +41,7 @@ export default function Books() {
         <article className="bookFeature bookFeature--reverse bookFeature--creaky">
           <div className="bookFeature__media">
             <img
-              src="/images/Art & Creaky bonesJPG.JPG"
+              src="/images/Art-&-Creaky-bones.JPG"
               alt="ART & CREAKY BONES"
               className="bookFeature__image"
             />
@@ -77,7 +77,7 @@ export default function Books() {
         <article className="bookFeature">
           <div className="bookFeature__media">
             <img
-              src="/images/Art Without Rejection.jpg"
+              src="/images/Art-Without-Rejection.jpg"
               alt="ART WITHOUT REJECTION"
               className="bookFeature__image"
             />

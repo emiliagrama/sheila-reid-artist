@@ -11,8 +11,8 @@ Each scroll has 6 collages and is a slightly different size, about  25 cm x 190 
 drawings, which were almost all done when I was grieving for someone dear who
 had died. Their joyful appearance is rather strange because the drawings originated in such pain.`,
     images: [
-      { src: "/images/Plenitude scrolls.jpg", alt: "Plenitude scrolls" },
-      { src: "/images/Plenitude more scrolls.jpg", alt: "More Plenitude scrolls" }
+      { src: "/images/Plenitude-scrolls.jpg", alt: "Plenitude scrolls" },
+      { src: "/images/Plenitude-more-scrolls.jpg", alt: "More Plenitude scrolls" }
     ]
   },
 
@@ -22,8 +22,8 @@ had died. Their joyful appearance is rather strange because the drawings origina
     description: `Radiance, a permanent solar light Installation, is a private commission comprised of 13 stainless steel structures, each with 18 solar lights. The poles are 20 cm wide x 400 cm tall.
 Solar lights are like personal signs of contemporary life, but somehow infused with mystery because they're so independent. At night each one lights when it is ready,  never all together even though they have collected the same amount of sun during the day. The installation was judged an “oeurve majour” by experts and can be seen on top of the hill facing the town of Vence, France and the matisse Chapel, but in the day time only because the lights have all been turned off.`,
     images: [
-      { src: "/images/Radiance at night.jpg", alt: "Radiance at night" },
-      { src: "/images/Radiance day.JPG", alt: "Radiance day" }
+      { src: "/images/Radiance-at-night.jpg", alt: "Radiance at night" },
+      { src: "/images/Radiance-day.JPG", alt: "Radiance day" }
     ]
   },
 
@@ -36,8 +36,8 @@ Diane Waldman, Deputy Director, Solomon Guggenheim Museum, New York City 1987
 Alexandra Tuttle
 “Reid's work hints at the underlying unity in the universe.Her symbols resemble sacred languages...Yet in a curious alchemy that only art can achieve,Reid manages to transform the banal signs of our civilization's mediocrity,into a powerful secret universe.”`,
     images: [
-      { src: "/images/Hieroglyphics at Art Gallery of Victoria, Canada.jpg", alt: "Hieroglyphics Victoria Gallery" },
-      { src: "/images/Hieroglyphics Guggenheim040.jpg", alt: "Hieroglyphics Guggenheim" }
+      { src: "/images/Hieroglyphics-at-Art-Gallery-of-Victoria,-Canada.jpg", alt: "Hieroglyphics Victoria Gallery" },
+      { src: "/images/Hieroglyphics-Guggenheim040.jpg", alt: "Hieroglyphics Guggenheim" }
     ]
   },
 
@@ -55,8 +55,8 @@ marriage of the two is remarkable...”
 A bientôt,
 Lisa`,
     images: [
-      { src: "/images/Architectural Patterns Grand Palais.jpg", alt: "Architectural Patterns Grand Palais" },
-      { src: "/images/Architectural Patterns in Vence jpg (maybe).jpg", alt: "Architectural Patterns Vence" }
+      { src: "/images/Architectural-Patterns-Grand-Palais.jpg", alt: "Architectural Patterns Grand Palais" },
+      { src: "/images/Architectural-Patterns-in-Vence.jpg", alt: "Architectural Patterns Vence" }
     ]
   },
 
@@ -65,8 +65,8 @@ Lisa`,
     years: "1987",
     description: `Libery was a structure made at the request of a group of artists doing a show of monumental works that traveled around France. It was called Liberty partly because of the bright colors and partly because it was celebrating freedom from old ideas and customs.`,
     images: [
-      { src: "/images/liberty .jpg", alt: "Liberty sculpture" },
-      { src: "/images/liberty  (outdoors).jpg", alt: "Liberty outdoors" }
+      { src: "/images/liberty.jpg", alt: "Liberty sculpture" },
+      { src: "/images/liberty-(outdoors).jpg", alt: "Liberty outdoors" }
     ]
   },
 
@@ -77,8 +77,8 @@ Lisa`,
 Magali Michel  art critic (translation)
 « The forms in these structures are superbe, rich in color, like a symbol of human balance. They're a harmony between feelings and desire. »`,
     images: [
-      { src: "/images/13 Triangles  jpg.jpg", alt: "Thirteen Triangles installation" },
-      { src: "/images/'Thirteen Triangles'  close-up.jpg", alt: "Thirteen Triangles close up" }
+      { src: "/images/13-Triangles.jpg", alt: "Thirteen Triangles installation" },
+      { src: "/images/Thirteen-Triangles.jpg", alt: "Thirteen Triangles close up" }
     ]
   },
 
@@ -91,8 +91,8 @@ France Delville, Art Critic, (L'Atelier du Futur Revue des Universities du XXI S
 of her Feminine Reflections... that sends shock waves through you, not because of the individual elements
 but because of the whole.”`,
     images: [
-      { src: "/images/Sheila Reid's 'Feminine Reflections'.jpg", alt: "Feminine Reflections installation" },
-      { src: "/images/Feminine Reflect close up'.jpg", alt: "Feminine Reflections close up" }
+      { src: "/images/Sheila-Reid's-'Feminine-Reflections'.jpg", alt: "Feminine Reflections installation" },
+      { src: "/images/Feminine-Reflect-close-up'.jpg", alt: "Feminine Reflections close up" }
     ]
   },
 
@@ -111,8 +111,8 @@ but because of the whole.”`,
       Museum of Modern Art in Lisbon and many others in
       quite a few different countries.`,
     images: [
-      { src: "/images/Soft Patterns at Utah Museum of Fine Art.JPG", alt: "Soft Patterns Utah Museum" },
-      { src: "/images/Soft Patterns  panel.png", alt: "Soft Patterns panel" }
+      { src: "/images/Soft-Patterns-at-Utah-Museum-of-Fine-Art.JPG", alt: "Soft Patterns Utah Museum" },
+      { src: "/images/Soft-Patterns-panel.png", alt: "Soft Patterns panel" }
     ]
   }
 ];
