@@ -364,3 +364,21 @@
     font-size: 0.9rem;
   }
 }
+
+.biographyFeature {
+  overflow: hidden;
+}
+
+.biographyFeature img {
+  animation: bioZoom 14s ease-out forwards;
+  transform-origin: center;
+}
+
+@keyframes bioZoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.10);
+  }
+}

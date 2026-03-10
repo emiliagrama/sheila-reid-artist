@@ -152,7 +152,7 @@ export default function Biography() {
 
         <section className="biographyFeature biographyFeature--closing">
           <figure className="biographyFeature__figure">
-            <img
+            <img className="biographyFinalImage"
               src="/images/sheila-bio-portrait.jpg"
               alt="Artwork or installation by Sheila Reid"
             />
