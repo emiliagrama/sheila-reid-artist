@@ -22,6 +22,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 32px;
+  position: relative;
 }
 
 .siteBrand {
@@ -29,6 +30,7 @@
   line-height: 0.92;
   letter-spacing: -0.02em;
   color: #8e3f3f;
+  text-decoration: none;
   transition: opacity 0.24s ease, transform 0.24s ease;
 }
 
@@ -48,6 +50,7 @@
   font-size: 0.98rem;
   line-height: 1;
   color: #5b4a40;
+  text-decoration: none;
   padding: 6px 0;
   transition: color 0.24s ease, opacity 0.24s ease;
 }
@@ -74,6 +77,17 @@
 .siteNav__link:hover::after,
 .siteNav__link.active::after {
   transform: scaleX(1);
+}
+
+.menuToggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #5b4a40;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px;
 }
 
 .siteMain {
@@ -139,24 +153,52 @@
 @media (max-width: 720px) {
   .siteHeader__inner {
     width: calc(100% - 28px);
-    min-height: auto;
-    padding: 18px 0 16px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 14px;
+    min-height: 72px;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
   }
 
   .siteBrand {
     font-size: clamp(2rem, 8vw, 2.8rem);
   }
 
+  .menuToggle {
+    display: block;
+    margin-left: auto;
+  }
+
   .siteNav {
-    flex-wrap: wrap;
-    gap: 16px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding: 14px 0 12px;
+    background: rgb(245, 241, 234);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 1px solid rgba(91, 58, 41, 0.08);
+    border-bottom: 1px solid rgba(91, 58, 41, 0.11);
+  }
+
+  .siteNav.open {
+    display: flex;
   }
 
   .siteNav__link {
-    font-size: 0.96rem;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1rem;
+  }
+
+  .siteNav__link::after {
+    width: 72px;
+    bottom: 8px;
   }
 
   .siteMain {
