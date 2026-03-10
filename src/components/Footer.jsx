@@ -8,7 +8,7 @@ export default function Footer() {
           <a href="mailto:Sheila8383@aol.com">Email</a>
 
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/sheilareidartist/?hl=en"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -16,7 +16,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/sheila.reid.927"
             target="_blank"
             rel="noopener noreferrer"
           >
