@@ -83,6 +83,59 @@
   flex: 1;
 }
 
+.backToTopButton {
+  position: fixed;
+  right: 16px;
+  bottom: 18px;
+  width: 46px;
+  height: 46px;
+  border: none;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  background: rgba(157, 74, 72, 0.795);
+  color: #fff;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition:
+    opacity 0.22s ease,
+    transform 0.22s ease,
+    visibility 0.22s ease,
+    background 0.22s ease;
+  z-index: 90;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.backToTopButton.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.backToTopButton:hover {
+  background: #8e403fde;
+}
+
+.backToTopButton:active {
+  transform: translateY(1px);
+}
+
+.backToTopButton:focus-visible {
+  outline: 2px solid rgba(170, 106, 42, 0.9);
+  outline-offset: 3px;
+}
+
+@media (min-width: 600px) {
+  .backToTopButton {
+    display: none;
+  }
+}
+
 @media (max-width: 720px) {
   .siteHeader__inner {
     width: calc(100% - 28px);
