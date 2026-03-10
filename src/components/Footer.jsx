@@ -1,0 +1,34 @@
+import "../styles/footer.css"
+export default function Footer() {
+  return (
+    <footer className="siteFooter">
+      <div className="footerInner">
+
+        <div className="footerLinks">
+          <a href="mailto:Sheila8383@aol.com">Email</a>
+
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Facebook
+          </a>
+        </div>
+
+        <p className="footerNote">
+          © {new Date().getFullYear()} Sheila Reid
+        </p>
+
+      </div>
+    </footer>
+  )
+}

@@ -1,68 +1,113 @@
 .siteShell {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .siteHeader {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(245, 241, 234, 0.94);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid rgba(91, 58, 41, 0.12);
+  background: rgba(245, 241, 234, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(91, 58, 41, 0.08);
 }
 
 .siteHeader__inner {
-  width: min(1120px, calc(100% - 32px));
+  width: min(1240px, calc(100% - 48px));
   margin: 0 auto;
-  min-height: 60px;
+  min-height: 82px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  gap: 32px;
 }
 
 .siteBrand {
-  font-size: clamp(1.6rem, 2.6vw, 2.6rem);
-  letter-spacing: 0.02em;
+  font-size: clamp(2.1rem, 3vw, 3.3rem);
+  line-height: 0.92;
+  letter-spacing: -0.02em;
   color: #8e3f3f;
+  transition: opacity 0.24s ease, transform 0.24s ease;
+}
+
+.siteBrand:hover {
+  opacity: 0.82;
+  transform: translateY(-1px);
 }
 
 .siteNav {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
 }
 
 .siteNav__link {
-  font-size: 1rem;
+  position: relative;
+  font-size: 0.98rem;
+  line-height: 1;
   color: #5b4a40;
-  padding-bottom: 2px;
-  border-bottom: 1px solid transparent;
-  transition: 0.2s ease;
+  padding: 6px 0;
+  transition: color 0.24s ease, opacity 0.24s ease;
+}
+
+.siteNav__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.26s ease;
+  opacity: 0.9;
 }
 
 .siteNav__link:hover,
 .siteNav__link.active {
   color: #9a5c22;
-  border-color: currentColor;
+}
+
+.siteNav__link:hover::after,
+.siteNav__link.active::after {
+  transform: scaleX(1);
 }
 
 .siteMain {
-  width: min(1240px, calc(100% - 50px));
+  width: min(1280px, calc(100% - 64px));
   margin: 0 auto;
-  padding: 56px 0 88px;
+  padding: 72px 0 120px;
+  flex: 1;
 }
 
 @media (max-width: 720px) {
   .siteHeader__inner {
+    width: calc(100% - 28px);
     min-height: auto;
-    padding: 18px 0;
+    padding: 18px 0 16px;
     flex-direction: column;
     align-items: flex-start;
+    gap: 14px;
+  }
+
+  .siteBrand {
+    font-size: clamp(2rem, 8vw, 2.8rem);
   }
 
   .siteNav {
     flex-wrap: wrap;
-    gap: 14px;
+    gap: 16px;
+  }
+
+  .siteNav__link {
+    font-size: 0.96rem;
+  }
+
+  .siteMain {
+    width: calc(100% - 28px);
+    padding: 40px 0 84px;
   }
 }

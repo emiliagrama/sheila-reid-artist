@@ -1,0 +1,366 @@
+.biographyPage {
+  padding: 72px 0 120px;
+}
+
+.biographyShell {
+  width: min(1180px, calc(100% - 64px));
+  margin: 0 auto;
+  display: grid;
+  gap: 104px;
+}
+
+.biographyEyebrow {
+  margin: 0 0 18px;
+  font-size: 0.82rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #aa6a2a;
+}
+
+.biographyHero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(340px, 520px);
+  gap: 84px;
+  align-items: start;
+}
+
+.biographyHero__text {
+  max-width: 700px;
+}
+
+.biographyTitle {
+  margin: 0;
+  font-size: clamp(4rem, 7vw, 6.8rem);
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+  color: #9d4a48;
+}
+
+.biographyLead {
+  margin: 34px 0 0;
+  max-width: 36ch;
+  font-size: clamp(1.45rem, 2vw, 2rem);
+  line-height: 1.42;
+  color: #5b4a42;
+}
+
+.biographyHero__media {
+  padding-top: 8px;
+}
+
+.biographyHero__media img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 2px;
+}
+
+.biographyNarrative {
+  display: grid;
+  gap: 28px;
+  padding-top: 34px;
+  border-top: 1px solid rgba(91, 74, 66, 0.16);
+}
+
+.biographySectionIntro {
+  margin: 0;
+}
+
+.biographyNarrative__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.78fr);
+  gap: 96px;
+  align-items: start;
+}
+
+.biographyNarrative__main,
+.biographyNarrative__side {
+  display: grid;
+  gap: 26px;
+}
+
+.biographyNarrative p,
+.biographyArchive__intro p,
+.biographyArchiveCard li,
+.biographyFeature__figure figcaption {
+  margin: 0;
+  color: #5a4d45;
+}
+
+.biographyNarrative p {
+  font-size: 1.06rem;
+  line-height: 1.88;
+}
+
+.biographyNarrative__main p {
+  max-width: 36ch;
+}
+
+.biographyNarrative__side p {
+  max-width: 32ch;
+  font-size: 1rem;
+  line-height: 1.82;
+}
+
+.biographyContactBlock {
+  margin-top: 6px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(91, 74, 66, 0.14);
+  display: grid;
+  gap: 8px;
+}
+
+.biographyContactLabel {
+  margin: 0;
+  font-size: 0.76rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8a5b37;
+}
+
+.biographyContactBlock a {
+  width: fit-content;
+  color: #9e3d10;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(158, 61, 16, 0.35);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.biographyContactBlock a:hover {
+  color: #7d2f0b;
+  border-color: rgba(125, 47, 11, 0.6);
+}
+
+.biographyArchive {
+  display: grid;
+  gap: 44px;
+  padding-top: 38px;
+  border-top: 1px solid rgba(91, 74, 66, 0.16);
+}
+
+.biographyArchive__intro {
+  max-width: 720px;
+}
+
+.biographySectionTitle,
+.biographyArchive__intro h2 {
+  margin: 0 0 18px;
+  font-size: clamp(2.4rem, 4vw, 3.9rem);
+  line-height: 0.98;
+  font-weight: 400;
+  color: #1c1715;
+}
+
+.biographyArchive__lead,
+.biographyArchive__intro p:last-child {
+  max-width: 58ch;
+  font-size: 1.04rem;
+  line-height: 1.78;
+}
+
+.biographyArchive__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 52px;
+  align-items: start;
+}
+
+.biographyArchiveCard {
+  padding-top: 28px;
+  border-top: 1px solid rgba(91, 74, 66, 0.18);
+}
+
+.biographyArchiveCard h3 {
+  margin: 0 0 24px;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #2a221e;
+}
+
+.biographyArchiveCard ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.biographyArchiveCard li {
+  position: relative;
+  padding-left: 15px;
+  font-size: 0.98rem;
+  line-height: 1.78;
+}
+
+.biographyArchiveCard li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.84em;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(170, 106, 42, 0.58);
+}
+
+.biographyFeature {
+  display: grid;
+  justify-content: center;
+}
+
+.biographyFeature--closing {
+  padding-top: 8px;
+}
+
+.biographyFeature__figure {
+  margin: 0;
+  display: grid;
+  gap: 12px;
+  width: min(100%, 860px);
+}
+
+.biographyFeature__figure img {
+  width: 100%;
+  max-height: 760px;
+  object-fit: cover;
+  display: block;
+  border-radius: 2px;
+}
+
+.biographyFeature__figure figcaption {
+  font-size: 0.94rem;
+  line-height: 1.6;
+  color: rgba(90, 77, 69, 0.82);
+}
+
+@media (max-width: 1100px) {
+  .biographyShell {
+    width: min(100%, calc(100% - 48px));
+    gap: 80px;
+  }
+
+  .biographyHero {
+    grid-template-columns: 1fr;
+    gap: 44px;
+  }
+
+  .biographyHero__media {
+    max-width: 560px;
+  }
+
+  .biographyHero__media img {
+    aspect-ratio: auto;
+  }
+
+  .biographyLead {
+    max-width: 32ch;
+  }
+
+  .biographyNarrative__grid {
+    grid-template-columns: 1fr;
+    gap: 44px;
+  }
+
+  .biographyNarrative__main p,
+  .biographyNarrative__side p {
+    max-width: none;
+  }
+
+  .biographyArchive__grid {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .biographyFeature__figure {
+    width: min(100%, 760px);
+  }
+}
+
+@media (max-width: 768px) {
+  .biographyPage {
+    padding: 44px 0 84px;
+  }
+
+  .biographyShell {
+    width: min(100%, calc(100% - 32px));
+    gap: 64px;
+  }
+
+  .biographyEyebrow {
+    margin-bottom: 14px;
+    font-size: 0.74rem;
+    letter-spacing: 0.18em;
+  }
+
+  .biographyTitle {
+    font-size: clamp(3.1rem, 15vw, 4.9rem);
+    line-height: 0.95;
+  }
+
+  .biographyLead {
+    margin-top: 22px;
+    max-width: none;
+    font-size: 1.2rem;
+    line-height: 1.58;
+  }
+
+  .biographyNarrative {
+    gap: 22px;
+    padding-top: 26px;
+  }
+
+  .biographyNarrative__grid {
+    gap: 34px;
+  }
+
+  .biographyNarrative p {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .biographyArchive {
+    gap: 34px;
+    padding-top: 28px;
+  }
+
+  .biographySectionTitle,
+  .biographyArchive__intro h2 {
+    font-size: clamp(2rem, 9vw, 2.9rem);
+    line-height: 1.02;
+  }
+
+  .biographyArchive__lead,
+  .biographyArchive__intro p:last-child {
+    font-size: 1rem;
+    line-height: 1.72;
+  }
+
+  .biographyArchiveCard {
+    padding-top: 22px;
+  }
+
+  .biographyArchiveCard h3 {
+    margin-bottom: 18px;
+    font-size: 1.24rem;
+  }
+
+  .biographyArchiveCard ul {
+    gap: 12px;
+  }
+
+  .biographyArchiveCard li {
+    font-size: 0.95rem;
+    line-height: 1.72;
+  }
+
+  .biographyFeature__figure {
+    gap: 10px;
+  }
+
+  .biographyFeature__figure figcaption {
+    font-size: 0.9rem;
+  }
+}

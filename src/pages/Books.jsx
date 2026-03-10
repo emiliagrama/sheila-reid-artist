@@ -38,7 +38,7 @@ export default function Books() {
           </div>
         </article>
 
-        <article className="bookFeature bookFeature--reverse">
+        <article className="bookFeature bookFeature--reverse bookFeature--creaky">
           <div className="bookFeature__media">
             <img
               src="/images/Art & Creaky bonesJPG.JPG"
