@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 const artworkSeries = [
   {
@@ -134,6 +134,30 @@ export default function Artworks() {
     isOpen: false,
     index: 0
   });
+
+  const touchStartX = useRef(0);
+  const touchStartY = useRef(0);
+
+  const handleTouchStart = (event) => {
+    const touch = event.changedTouches[0];
+    touchStartX.current = touch.clientX;
+    touchStartY.current = touch.clientY;
+  };
+
+  const handleTouchEnd = (event) => {
+    const touch = event.changedTouches[0];
+    const diffX = touchStartX.current - touch.clientX;
+    const diffY = touchStartY.current - touch.clientY;
+
+    if (Math.abs(diffY) > Math.abs(diffX)) return;
+    if (Math.abs(diffX) < 30) return;
+
+    if (diffX > 0) {
+      showNext();
+    } else {
+      showPrev();
+    }
+  };
 
   const openLightbox = (globalIndex) => {
     setLightbox({
@@ -308,6 +332,8 @@ export default function Artworks() {
           <div
             className="artLightbox__inner"
             onClick={(e) => e.stopPropagation()}
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
           >
             <img
               src={allArtworkImages[lightbox.index].src}

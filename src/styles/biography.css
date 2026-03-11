@@ -12,7 +12,7 @@
 .biographyEyebrow {
   margin: 0 0 18px;
   font-size: 0.82rem;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.29em;
   text-transform: uppercase;
   color: #aa6a2a;
 }
@@ -55,13 +55,12 @@
   object-fit: cover;
   object-position: center;
   display: block;
-  border-radius: 2px;
 }
 
 .biographyNarrative {
   display: grid;
   gap: 28px;
-  padding-top: 34px;
+  padding-top: 94px;
   border-top: 1px solid rgba(91, 74, 66, 0.16);
 }
 
@@ -71,8 +70,7 @@
 
 .biographyNarrative__grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.78fr);
-  gap: 96px;
+  grid-template-columns: minmax(0, 1.10fr) minmax(280px, 1fr);
   align-items: start;
 }
 
@@ -96,17 +94,17 @@
 }
 
 .biographyNarrative__main p {
-  max-width: 36ch;
+  max-width: 30ch;
 }
 
 .biographyNarrative__side p {
-  max-width: 32ch;
+  max-width: 30ch;
   font-size: 1rem;
   line-height: 1.82;
 }
 
 .biographyContactBlock {
-  margin-top: 6px;
+  margin-top: 20px;
   padding-top: 18px;
   border-top: 1px solid rgba(91, 74, 66, 0.14);
   display: grid;
@@ -137,7 +135,7 @@
 .biographyArchive {
   display: grid;
   gap: 44px;
-  padding-top: 38px;
+  padding-top: 60px;
   border-top: 1px solid rgba(91, 74, 66, 0.16);
 }
 
@@ -228,7 +226,6 @@
   max-height: 760px;
   object-fit: cover;
   display: block;
-  border-radius: 2px;
 }
 
 .biographyFeature__figure figcaption {
