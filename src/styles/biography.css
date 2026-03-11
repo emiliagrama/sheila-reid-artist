@@ -47,6 +47,7 @@
 
 .biographyHero__media {
   padding-top: 8px;
+   max-width: 410px;
 }
 
 .biographyHero__media img {
@@ -192,7 +193,7 @@
   position: relative;
   padding-left: 15px;
   font-size: 0.98rem;
-  line-height: 1.78;
+  line-height: 1.9;
 }
 
 .biographyArchiveCard li::before {
@@ -203,7 +204,7 @@
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: rgba(170, 106, 42, 0.58);
+  background: rgba(170, 106, 42, 0.432);
 }
 
 .biographyFeature {

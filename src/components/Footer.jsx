@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
 
         <p className="footerNote">
-          © {new Date().getFullYear()} Sheila Reid
+          © {new Date().getFullYear()} Sheila Reid — Artist Archive
         </p>
 
       </div>

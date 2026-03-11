@@ -35,6 +35,16 @@ export default function Books() {
               photographs. Critics have said my former books are “like a
               conversation with the artist”.
             </p>
+                        <div className="bookFeature__actions">
+              <a
+                href="https://www.amazon.fr/Heaven-Silent-Memoire-Artist-Excellence/dp/B0DQLPH6HV"
+                className="bookLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Buy on Amazon
+              </a>
+            </div>
           </div>
         </article>
 
