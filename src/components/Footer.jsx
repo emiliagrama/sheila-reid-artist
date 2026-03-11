@@ -27,6 +27,16 @@ export default function Footer() {
         <p className="footerNote">
           © {new Date().getFullYear()} Sheila Reid — Artist Archive
         </p>
+        <p className="footerCredit">
+          Website by{" "}
+          <a
+            href="https://emiliagrama.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Emilia Grama
+          </a>
+        </p>
 
       </div>
     </footer>
