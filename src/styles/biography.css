@@ -40,8 +40,8 @@
 .biographyLead {
   margin: 34px 0 0;
   max-width: 36ch;
-  font-size: clamp(1.35rem, 1.8vw, 1.7rem);
-  line-height: 1.22;
+  font-size: clamp(1.45rem, 1.8vw, 1.8rem);
+  line-height: 1.32;
   color: #5b4a42;
 }
 
