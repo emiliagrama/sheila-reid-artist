@@ -11,11 +11,7 @@ export default function Biography() {
 
             <p className="biographyLead">
               Naturally, it&apos;s unusual for a woman artist to have her works
-              collected and/or exhibited by 33 museums in 12 countries. However,
-              what struck her as odd was that in 1987, when Guggenheim curator
-              Lisa Dennison approached her for an installation of her
-              Hieroglyphics, there were 34 male artists collected alongside her,
-              making her the only woman.
+              collected and/or exhibited by 33 museums in 12 countries. Critics and museum directors in many countries have praised the artist and her work, calling it a hauntingly beautiful body of work and that she is one of today's most unusual artists, and more particularly that she has a profound understanding of the creative process. One American critic even called her Hieroglyphics "rare and sublime".
             </p>
           </div>
 
@@ -98,7 +94,7 @@ export default function Biography() {
               <ul>
                 <li>Palazzo Arengario, Milan, Italy — 1977</li>
                 <li>Utah Museum of Fine Art, Salt Lake City — 1987</li>
-                <li>Institute of Contemporary Art, ICA, London, UK — 1988</li>
+                <li>Institute of Contemporary Art, Gallery London, UK — 1988</li>
                 <li>Maier Museum, Lynchburg, Virginia — 1986</li>
                 <li>Nexus Foundation For Today&apos;s Art, Philadelphia — 1986</li>
                 <li>Milliken & Parsons Art Center, South Carolina — 1986</li>
@@ -114,9 +110,9 @@ export default function Biography() {
                 <li>Art Gallery of Greater Victoria, Canada — 1990</li>
                 <li>Midwest Museum of American Art, Indiana — 1996</li>
                 <li>Downey Museum of Art, California — 1996</li>
-                <li>Saco Museum, Maine USA — 1996</li>
+                <li>York Institute Museum, Maine USA — 1996</li>
                 <li>The Paper Museum, Tokyo, Japan — 2007</li>
-                <li>Museum of Modern Art, Biblioteca Alexandria, Egypt — 2007</li>
+                <li>Biennale of Artists Books, Biblioteca Alexandria, Arts Center, Egypt — 2007</li>
                 <li>Kyoto Institute Museum Kyoto, Japan — 2007</li>
                 <li>Museum of Artist Books, Baku, Azerbaijan — 2009</li>
               </ul>
@@ -127,10 +123,9 @@ export default function Biography() {
               <ul>
                 <li>Solomon Guggenheim Museum, New York City — 1987</li>
                 <li>Victoria & Albert Museum Library, London — 2007</li>
-                <li>The Paper Museum, Tokyo, Japan — 2007</li>
+                <li>Musée d&apos;Art Moderne, Saint Etienne, France — 1993</li>
                 <li>Kyoto Institute, Kyoto, Japan — 2007</li>
                 <li>Museum of Artist Books, Baku, Azerbaijan — 2009</li>
-                <li>Musée d&apos;Art Moderne, Saint Etienne, France — 1993</li>
                 <li>Supreme Court USA — Ruth Bader Ginsberg chambers</li>
                 <li>Utah Museum of Fine Art — 1987</li>
                 <li>Museum of Modern Art, Biblioteca Alexandria, Egypt — 2007</li>
@@ -140,10 +135,10 @@ export default function Biography() {
                 <li>Maier Museum, Virginia — 1986</li>
                 <li>Downey Museum of Art, California — 1996</li>
                 <li>Museum of Art & Science, Florida — 1996</li>
-                <li>Midwest Museum of Art, Indiana — 1996</li>
+                <li>Midwest Museum of American Art, Indiana — 1996</li>
                 <li>Museo D&apos;Arte Contemporaneo, Castellôn, Spain — 1989</li>
                 <li>Galerie D&apos;Art Contemporain, Chamalières, France — 1991</li>
-                <li>Jacksonville University Museum, Florida — 1990</li>
+                <li>Jacksonville University Museum, Daytona Beach, Florida — 1990</li>
                 <li>McAllen International Museum, Texas — 1990</li>
               </ul>
             </article>
