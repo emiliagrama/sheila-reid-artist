@@ -1,8 +1,51 @@
+import { useRef } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 import "../styles/pages.css";
 
+gsap.registerPlugin(ScrollTrigger, useGSAP);
+
 export default function Books() {
+  const container = useRef(null);
+
+  useGSAP(() => {
+    const features = gsap.utils.toArray(".bookFeature");
+
+    features.forEach((feature) => {
+      const media = feature.querySelector(".bookFeature__media");
+      const content = feature.querySelector(".bookFeature__content");
+
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: feature,
+          start: "top 78%",
+          toggleActions: "play none none none",
+        },
+      });
+
+      tl.from(media, {
+        opacity: 0,
+        y: 18,
+        duration: 0.9,
+        ease: "power2.out",
+      });
+
+      tl.from(
+        content,
+        {
+          opacity: 0,
+          y: 26,
+          duration: 0.9,
+          ease: "power2.out",
+        },
+        "-=0.72"
+      );
+    });
+  }, { scope: container });
+
   return (
-    <section className="booksPage pageSection">
+    <section ref={container} className="booksPage pageSection">
       <div className="pageIntro booksIntro">
         <p className="pageEyebrow">Selected Publications</p>
         <h1>Books</h1>
@@ -31,16 +74,14 @@ export default function Books() {
               essential if any trace of our art is to remain. This book is a
               personal reminisce of my work and life. It's a much more in-depth
               testimony, of my adventures than has ever been published before.
-              It includes an interplay of narrative, letters, critiques and
-              photographs. Critics have said my former books are “like a
-              conversation with the artist”.
             </p>
-                        <div className="bookFeature__actions">
+
+            <div className="bookFeature__actions">
               <a
-                href="https://www.amazon.fr/Heaven-Silent-Memoire-Artist-Excellence/dp/B0DQLPH6HV"
+                href="#"
                 className="bookLink"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Buy on Amazon
               </a>

@@ -10,11 +10,11 @@
 }
 
 .biographyEyebrow {
-  margin: 0 0 18px;
+  margin: 0 0 18px !important;
   font-size: 0.82rem;
   letter-spacing: 0.29em;
   text-transform: uppercase;
-  color: #aa6a2a;
+  color: #aa6a2a !important;
 }
 
 .biographyHero {

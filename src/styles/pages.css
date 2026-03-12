@@ -379,7 +379,7 @@
   grid-template-columns: 380px 1fr;
   gap: 82px;
   align-items: start;
-  padding: 120px 0;
+  padding: 88px 0;
   border-bottom: 1px solid rgba(91, 58, 41, 0.1);
 }
 
@@ -571,7 +571,6 @@
 .pageIntro,
 .artistHero,
 .seriesBlock,
-.bookFeature,
 .bioBlock,
 .biographyHero,
 .biographyNarrative,
