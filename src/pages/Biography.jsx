@@ -11,7 +11,7 @@ export default function Biography() {
 
             <p className="biographyLead">
               Naturally, it&apos;s unusual for a woman artist to have her works
-              collected and/or exhibited by 33 museums in 12 countries. Critics and museum directors in many countries have praised the artist and her work, calling it a "hauntingly beautiful body of work" and that she is "one of today's most unusual artists", and more particularly that "she has a profound understanding of the creative process". One American critic even called her Hieroglyphics "rare and sublime".
+              collected and/or exhibited by 33 museums in 12 countries. Critics and museum directors in many countries have praised the artist and her work, calling it a "hauntingly beautiful body of work" and that she is "one of today's most unusual artists", and more particularly that "she has a profound understanding of the creative process". One American critic even called her Hieroglyphics "rare and sublime". Lisa Dennason from Guggenheim Museum wrote that her Architectural Patterns were "glorious and very sensitive to the space".
             </p>
           </div>
 
